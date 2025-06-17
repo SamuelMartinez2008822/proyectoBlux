@@ -31,6 +31,7 @@ nav a{
 
 .holder{
     color: white;
+    text-decoration: underline;
 }
 
 header button{
@@ -42,4 +43,71 @@ header button{
     border: none;
     font-size: 15px;
     cursor: pointer;
+}
+
+.secPrin{
+    display: flex;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #2E254D;
+    width: 50%;
+    color: white;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto h1{
+    font-size: 50px;
+}
+
+.texto h1, p{
+    margin: 0 20px 20px 0;
+}
+
+.botones{
+    width: 273px;
+    padding: 3px;
+    margin: 50px 0 100px 0;
+    border-radius: 5px;
+    border: 1px solid #ffffff48;
+}
+
+.botones button{
+    padding: 10px;
+    cursor: pointer;
+    width: 145px;
+    font-size: 14px;
+}
+.botones span{
+    background: linear-gradient(to right, #f560be, #f50097);
+    background-clip: text;
+    color: transparent;
+}
+
+#features{
+    background-color: #2E254D;
+    border: 2px solid #fff;
+    color: white;
+    width: 115px;
+    border-radius: 5px;
+}
+
+.banner{
+    width: 50%;
+    height: 550px;
+    background-image: url(../assets/images/hojasFondo.jpg);
+    background-size: cover;
+}
+
+.banner img{
+    width: 100px;
+    height: 200px;
 }
