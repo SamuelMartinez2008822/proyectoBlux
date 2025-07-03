@@ -30,8 +30,7 @@ nav a{
 }
 
 .holder{
-    color: white;
-    text-decoration: underline;
+    color: white;   
 }
 
 header button{
@@ -65,11 +64,15 @@ header button{
 }
 
 .texto h1{
-    font-size: 50px;
+    font-size: 70px;
 }
 
-.texto h1, p{
-    margin: 0 20px 20px 0;
+.texto h1{
+    margin: 0 100px 20px 0;
+}
+
+.texto p{
+    margin: 0 100px 20px 0;
 }
 
 .botones{
@@ -101,6 +104,8 @@ header button{
 }
 
 .banner{
+    display: flex;
+    align-items: center;
     width: 50%;
     height: 550px;
     background-image: url(../assets/images/hojasFondo.jpg);
@@ -108,6 +113,202 @@ header button{
 }
 
 .banner img{
-    width: 100px;
-    height: 200px;
+    width: 200px;
+    height: 70%;
+    margin: 30px 0 0 170px;
+}
+
+.prin{
+    display: flex;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    color: #f50097;
+}
+aside{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+}
+
+aside img{
+    margin: 50px 0;
+    width: 500px;
+    height: 300px;
+}
+
+.infoLaptop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+.infoLaptop h3{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    background: linear-gradient(to right, #f50097, #2E254D);
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 40px;
+}
+
+.infoLaptop h4{
+    font-size: 20px;
+    font-weight: 100;
+    color: #f50097;
+    padding: 20px 0 10px 0;
+}
+
+.fa-circle-check{
+    color: #f50097;
+}
+
+.infoLaptop p{
+    margin: 5px;
+}
+
+.planes {
+    background-color: #1e1632;
+    padding: 60px 20px;
+}
+
+.planes h2 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.planes p {
+    color: gray;
+    font-size: 17px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenido {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px 25px;
+    width: 290px;
+    text-align: center;
+    box-shadow: 0 0 10px #00000025;
+}   
+
+.contenido h3 {
+    font-size: 24px;
+    color: #1e1632;
+    margin: 20px 0 10px;
+}
+
+.contenido h4 {
+    font-size: 20px;
+    color: #2e254d;
+    margin-bottom: 20px;
+}
+
+.contenido h4 span {
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+}
+
+.contenido ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contenido ul li {
+    font-size: 15px;
+    color: #333;
+    margin: 10px 0;
+    gap: 10px;
+}   
+
+.colorIco i{
+    color: #f50097;
+}
+
+.fa-xmark{
+    margin-right: 8px;
+}
+
+.fa-star{
+    margin-right: 8px;
+}
+
+.contenido p{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+    text-align: center ;
+}
+
+.contenido img{
+    width: 80px;
+    height: 80px;
+}
+
+.btnLite{
+    background-color: #f50097;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btnStandard {
+    background-color: #1e1632;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btnUltimate {
+    background-color: #2e254d;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+footer { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+footer p{
+    font-size: 12px;
+    color: #000000b2;
+}
+
+footer span{
+    color: #f50097;
+}
+
+footer i{
+    padding: 10px;
+    font-size: 20px;
 }
